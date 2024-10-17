@@ -29,6 +29,7 @@ export const finishGame = (gameId, result) => api.post(`/games/${gameId}/finish`
 export const getEvents = () => api.get('/events');
 export const getTournaments = () => api.get('/tournaments');
 export const getLeaderboard = () => api.get('/leaderboard');
+export const getUserStats = (userId) => api.get(`/users/${userId}/stats`);
 
 // Admin specific endpoints
 export const getUsers = () => api.get('/admin/users');
