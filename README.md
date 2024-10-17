@@ -22,7 +22,7 @@ This is the frontend application for Stonemu, a platform where users can play va
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/stonemu-frontend.git
+   git clone https://github.com/adisnas/stonemu.git
    ```
 
 2. Navigate to the project directory:
