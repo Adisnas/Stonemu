@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Button, Text, VStack, HStack, Image } from '@chakra-ui/react';
+import { Box, Button, Text, VStack, HStack } from '@chakra-ui/react';
 
 const suits = ['♠', '♥', '♦', '♣'];
 const values = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
